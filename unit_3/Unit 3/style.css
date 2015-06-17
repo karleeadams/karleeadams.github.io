@@ -1,0 +1,48 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: 'Noto Sans', sans-serif;
+	color: #354034;
+	background-color: #E9EAE5;
+	}
+header {
+	background-color: #354034;
+	color: #E9EAE5;
+	font-style: bold;
+	background-size: 400px;
+	padding-top: 20px;
+}
+h1 {
+  font-size: 200%;
+  text-align: center
+}
+
+#slogan {
+	font-style: italic;
+	text-align: center;
+	padding-bottom: 15px
+}
+img {
+	max-height: 600px;
+	padding: 20px;
+	 }
+div {
+	text-align: center;
+}
+.contact {
+	text-align: right;
+	padding-top: 5px;
+}
+ul {
+	padding-bottom: 5px;
+	padding-left: 25px;
+}
+footer {
+	color: #354034;
+	padding-right: 20px;
+}
+p {
+	padding-left: 3px;
+}
