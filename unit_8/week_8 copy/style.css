@@ -1,0 +1,96 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#wrapper {
+	width: auto;
+}
+
+body {
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	color: #3E403E;
+}
+
+h3 {
+	font-size: .70em;
+	text-align: right;
+}
+
+header img {
+	height: 70px;
+	margin-bottom: -25px;
+}
+
+a:hover {
+	color: #105B63;
+	background-color: #DFE5DE;
+}
+
+nav a {
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #105B63;
+	text-align: center;
+	padding: .75em;
+}
+#welcome {
+	visibility: hidden;
+}
+.website {
+	visibility: hidden;
+}
+.mobilemenu {
+	display: block;
+	margin: .25em;
+}
+
+#content {
+	visibility: hidden;
+}
+
+.contact {
+	text-align: right;
+	font-size: .75em;
+	padding-right: 30px;
+}
+#email {
+	color: #000000;
+	text-decoration: none;
+}
+#copyright {
+	color: #000000;
+	font-size: .65em;
+	text-align: center;
+	margin-top: .75em;
+	border-top: solid #A40917 2px;
+}
+
+@media only screen and (min-width: 500px ) {
+	#content { 
+		visibility: visible;
+		float: left;
+		width: 500px;
+		padding: 10px 0;
+		margin-left: 20px;
+		text-align: justify;
+	}
+	nav {
+		float: right;
+		margin-top: 50px;
+		margin-right: 30px;
+	}
+	header {
+		clear: both;
+	}
+	header img {
+		margin-bottom: 0px;
+	}
+	footer {
+		clear: both;
+	}
+	#copyright {
+		margin-right: 25px;
+	}
+}
